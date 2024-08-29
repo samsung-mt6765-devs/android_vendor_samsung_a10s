@@ -1,0 +1,71 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "OTG",
+      "paramconfig": {
+        "is_show_storage": true,
+        "support_typec": false
+      }
+    },
+    {
+      "showName": "TouchPal"
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "auto_switch": false
+      }
+    },
+    {
+      "showName": "DualBackCamera"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "MainSIMCard"
+    },
+    {
+      "showName": "SubSIMCard"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_disk": true,
+        "support_draw":true
+      }
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_test": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Sar1"
+    },
+    {
+      "showName": "Sar2"
+    }
+  ]
+}
