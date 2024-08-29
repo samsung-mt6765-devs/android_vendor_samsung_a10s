@@ -1434,15 +1434,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-samsung \
     android.hardware.wifi.hostapd \
     android.hardware.wifi@1.0-service \
-    engmode_manifest \
     hyper-default-sec \
     lights-default-sec \
-    manifest \
     manifest_android.hardware.drm@1.3-service.clearkey \
     manifest_android.hardware.drm@1.3-service.widevine \
-    power-default \
     sec_c2_manifest_default \
-    vaultkeeper_manifest \
     vendor.samsung.hardware.hqm@1.0-manifest \
     vendor.samsung.hardware.thermal@1.0-manifest \
     vendor.samsung.hardware.wifi.hostapd \
