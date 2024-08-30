@@ -540,7 +540,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10s/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/samsung/a10s/proprietary/vendor/etc/init/tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee.rc \
     vendor/samsung/a10s/proprietary/vendor/etc/init/trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.rc \
-    vendor/samsung/a10s/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
     vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc \
     vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc \
@@ -1417,22 +1416,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10s/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/samsung/a10s/proprietary/vendor/lib64/hw/fpsensor_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fpsensor_fingerprint.default.so \
     vendor/samsung/a10s/proprietary/vendor/lib64/libulk_ancbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulk_ancbase.so \
-    vendor/samsung/a10s/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.cas@1.2-service \
-    android.hardware.dumpstate@1.1-service-lazy \
     android.hardware.gpu@1.0-service \
-    android.hardware.health@2.1-samsung \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi@1.0-service \
-    hyper-default-sec \
-    lights-default-sec \
-    manifest_android.hardware.drm@1.3-service.clearkey \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    sec_c2_manifest_default \
-    vendor.samsung.hardware.hqm@1.0-manifest \
-    vendor.samsung.hardware.thermal@1.0-manifest \
-    vendor.samsung.hardware.wifi.hostapd \
-    vendor.samsung.hardware.wifi@2.0-service
